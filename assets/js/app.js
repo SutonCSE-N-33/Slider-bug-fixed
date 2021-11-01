@@ -56,6 +56,7 @@ var leftBtn = document.querySelector(".prevBtn");
 var rightBtn = document.querySelector(".nextBtn");
 var customers = [];
 let count = 0;
+console.log(customers);
 
 function Constructor(img, name, text) {
   this.img = img;
@@ -64,7 +65,7 @@ function Constructor(img, name, text) {
 }
 
 function createCustomer(img, name, text) {
-  let fullImg = "assets/img/member-" + img + ".jpg";
+  let fullImg = "assets/images/member-" + img + ".jpg";
   let cunstomerData = new Constructor(fullImg, name, text);
   customers.push(cunstomerData);
 }
