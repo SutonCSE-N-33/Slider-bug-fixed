@@ -55,7 +55,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fas fa-user-plus usericon"></i></a>
+                            <a class="nav-link admin-btn" href="login.php">Admin Panel</a>
                         </li>
                     </ul>
                 </div>
@@ -122,12 +122,12 @@
                     <button href="#" class="categories-btn">categories<i class="fa fa-sort-desc categories-icon" ></i> </button>
                     <div class="list">
                         <ul>
-                            <a href="basicfirstaid.html"><li>First aid Box</li></a>
+                            <a href="basicfirstaid.php"><li>First aid Box</li></a>
                             <a href=""><li>Be a Electrician</li></a>
-                            <a href="beahomedoctor.html"><li>Be a Home Doctor</li></a>
+                            <a href="beahomedoctor.php"><li>Be a Home Doctor</li></a>
                             <a href=""><li>Herbal Medico</li></a>
-                            <a href="beaprogrammer.html"><li>Be a Programmer</li></a>
-                            <a href="funnystory.html"><li>Funny Story</li></a>
+                            <a href="beaprogrammer.php"><li>Be a Programmer</li></a>
+                            <a href="funnystory.php"><li>Funny Story</li></a>
                         </ul>
                     </div>
                 </div>
@@ -166,19 +166,19 @@
             <div class="row">
                 <div class="col-sm-3">
                     <div class="item-1">
-                        <a href="basicfirstaid.html"><img class="science-box" src="assets/images/bfk.jpg" alt="" width="250px" height="250px"></a>
+                        <a href="basicfirstaid.php"><img class="science-box" src="assets/images/bfk.jpg" alt="" width="250px" height="250px"></a>
                         <span class="item-1-title">Basic first aid kit</span>
                     </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="item-1">
-                        <a href="beaprogrammer.html"><img class="science-box" src="assets/images/programmer.jpeg" alt="" width="250px" height="250px"></a>
+                        <a href="beaprogrammer.php"><img class="science-box" src="assets/images/programmer.jpeg" alt="" width="250px" height="250px"></a>
                         <span class="item-1-title">Be A Programmer</span>
                     </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="item-1">
-                        <a href="funnystory.html"><img class="science-box" src="assets/images/story.jpg" alt="" width="250px" height="250px"></a>
+                        <a href="funnystory.php"><img class="science-box" src="assets/images/story.jpg" alt="" width="250px" height="250px"></a>
                         <span class="item-1-title">Funny Story</span>
                     </div>
                 </div>
@@ -213,20 +213,20 @@
                 
                 <div class="col-sm-3">
                     <div class="item-2">
-                        <a href="beahomedoctor.html"><img class="science-box" src="assets/images/pessure.jpg" alt="" width="250px" height="250px"></a>
+                        <a href="beahomedoctor.php"><img class="science-box" src="assets/images/pessure.jpg" alt="" width="250px" height="250px"></a>
                         <span class="item-1-title">Be A Home Doctor</span>
                     </div>
                 </div>
                 
                 <div class="col-sm-3">
                     <div class="item-3">
-                        <a href="sexualhealth.html"><img class="science-box" src="assets/images/sexual-health.jpg" alt="" width="250px" height="250px"></a>
+                        <a href="sexualhealth.php"><img class="science-box" src="assets/images/sexual-health.jpg" alt="" width="250px" height="250px"></a>
                         <span class="item-1-title">Sexual Health</span>
                     </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="item-3">
-                        <a href="navigating.html"><img class="science-box" src="assets/images/navigating.png" alt="" width="250px" height="250px"></a>
+                        <a href="navigating.php"><img class="science-box" src="assets/images/navigating.png" alt="" width="250px" height="250px"></a>
                         <span class="item-1-title">Navigating</span>
                     </div>
                 </div>
@@ -261,20 +261,20 @@
             <div class="row ">
                 <div class="col-sm-3">
                     <div class="item-3">
-                        <a href="toolwork.html"><img class="science-box" src="assets/images/Tool-work.jpg" alt="" width="250px" height="250px"></a>
+                        <a href="toolwork.php"><img class="science-box" src="assets/images/Tool-work.jpg" alt="" width="250px" height="250px"></a>
                         <span class="item-1-title">Tool Work</span>
                     </div>
                 </div>
                 <div class="col-sm-3">
                     <div class="item-2">
-                        <a href="sciencebox.html"><img class="science-box" src="assets/images/science-box.jpg" alt="" width="250px" height="250px"></a>
+                        <a href="sciencebox.php"><img class="science-box" src="assets/images/science-box.jpg" alt="" width="250px" height="250px"></a>
                         <span class="item-1-title">science Box</span>
                     </div>
                 </div>
 
                 <div class="col-sm-3">
                     <div class="item-2">
-                        <a href="Herbal Medico.html"><img class="science-box" src="assets/images/herbal.jpg" alt="" width="250px" height="250px"></a>
+                        <a href="Herbal Medico.php"><img class="science-box" src="assets/images/herbal.jpg" alt="" width="250px" height="250px"></a>
                         <span class="item-1-title">Herbal Medico</span>
                     </div>
                 </div>

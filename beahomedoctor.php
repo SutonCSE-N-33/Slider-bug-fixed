@@ -1,3 +1,5 @@
+<?php include "conn1.php"?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,14 +31,14 @@
     <section id="navbar">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand logo" href="#">Innovate Locally, Scale Globally</a>
+                <a class="navbar-brand" href="#">SDP</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="mainmenu">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="index.php">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About Us</a>
@@ -122,28 +124,7 @@
                     <div class="second-icon">
                         <span><i class="fa fa-file-text-o"></i></span>
                         <div>
-                            <h3 class="content">Content</h3>
-                            <div class="modal" tabindex="-1">
-                                <div class="modal-dialog">
-                                 <!-- <div class="modal-content">
-                                     <div class="modal-header">
-                                      <h5 class="modal-title">This is Title</h5>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      <p>
-                                             Esse aspernatur inventore exercitationem sunt doloremque amet, 
-                                                in laboriosam sit nulla sequi! Consequatur consequuntur laudantium 
-                                                unde accusamus dolores quas provident reprehenderit nostrum corrupti. Necessitatibus dolor in quibusdam itaque excepturi quasi adipisci ea! Quia sint distinctio exercitationem eius, asperiores itaque magnam corporis ratione atque cumque et sapiente ea dolor earum aperiam!</p>
-                                    </div> 
-                                    <div class="modal-footer">
-                                      <button type="button" class="btn cls-btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                      <button type="button" class="btn btn-primary">Save changes</button>
-                                    </div>
-                                  </div>-->
-                                </div>
-                              </div>
-                              
+                            <h3>Content</h3>
                         </div>
                     </div>
 
@@ -164,83 +145,136 @@
                 </div>
                    </div>
 
-                <div class="col-md-8">
+                   <div class="col-md-8">
                     <div class="main-container">
                         <span><i class="fa fa-caret-left prev-btn"></i></span>
                         <section class="slider">
 
 
                             <div class="thumbnail">
-                                <img src="assets/images/programmer-1.png" class="slider-img " alt="" >
-                                <h4>Invention Of Computer Programming Language</h4>
+                                <img src="assets/images/doctor-1.jpg" class="slider-img " alt="" >
+                                <h4>Injection Push</h4>
                             </div>
 
                             <div class="thumbnail">
-                                <img src="assets/images/programmer-2.png" class="slider-img" alt="" >
-                                <h4>Conceptual Computer Programming for Kids</h4>
+                                <img src="assets/images/doctor-2.jpg" class="slider-img" alt="" >
+                                <h4>Pressure Measurement</h4>
                             </div>
 
                             <div class="thumbnail">
-                                <img src="assets/images/programmer-3.png" class="slider-img" alt="" >
-                                <h4>Components of Coding for Kids</h4>
+                                <img src="assets/images/doctor-3.jpg" class="slider-img" alt="" >
+                                <h4>Temperature Measurement</h4>
                             </div>
 
                             <div class="thumbnail">
-                                <img src="assets/images/programmer-4.png" class="slider-img" alt="" >
-                                <h4>Components inside your computer with its use</h4>
+                                <img src="assets/images/doctor-4.jpg" class="slider-img" alt="" >
+                                <h4>SugarLevel Measurement</h4>
                             </div>
 
                             <div class="thumbnail">
-                                <img src="assets/images/programmer-5.png" class="slider-img" alt="" >
-                                <h4>What is Internet? How it works?</h4>
+                                <img src="assets/images/doctor-5.jpg" class="slider-img" alt="" >
+                                <h4>Blood Test</h4>
                             </div>
 
                             <div class="thumbnail">
-                                <img src="assets/images/programmer-6.png" class="slider-img" alt="" >
-                                <h4>Interesting Python for kids</h4>
+                                <img src="assets/images/doctor-6.png" class="slider-img" alt="" >
+                                <h4>Blood Transfer</h4>
                             </div>
 
                             <div class="thumbnail">
-                                <img src="assets/images/programmer-7.png" class="slider-img" alt="" >
-                                <h4>Python Playground & its feature</h4>
+                                <img src="assets/images/doctor-7.jpg" class="slider-img" alt="" >
+                                <h4>Saline Push</h4>
                             </div>
 
+                            <div class="thumbnail">
+                                <img src="assets/images/doctor-8.png" class="slider-img" alt="" >
+                                <h4>Stop Diarrhea</h4>
+                            </div>
+
+                            <div class="thumbnail">
+                                <img src="assets/images/doctor-9.png" class="slider-img" alt="" >
+                                <h4>Stop Head pain</h4>
+                            </div>
+
+                            <div class="thumbnail">
+                                <img src="assets/images/doctor-10.jpg" class="slider-img" alt="" >
+                                <h4>Increase Brain Power</h4>
+                            </div>
                         </section>
                         <span><i class="fa fa-caret-right next-btn"></i></span>
                     </div>
 
                     <section class="video-left" >
-                       <embed class="video-slider" style="width: 650px; height: 350px;" src="https://www.youtube.com/embed/j-3eArinB7E" type="">
+                       <embed class="video-slider" style="width: 650px; height: 350px;" src="https://www.youtube.com/embed/FQ2gX8qQR_Y" type="">
                     </section>
                 </div>
-
 
             </div>
         </div>
     </section>
     <!-- //Sidebar and Thambnail Part End -->
 
+   
+
     <!-- Feedback Part Start -->
     <section id="feedback">
         <div class="container">
             <div class="section_title text-center">
                 <h2>Feedback Area</h2>
+
+                <?php
+    
+    if($_SERVER['REQUEST_METHOD']=='POST'){
+            $name = test($_POST['name']);
+            $email = test($_POST['email']);
+            $age = test($_POST['age']);
+            $phone = test($_POST['phone']);
+            $feedback_details = test($_POST['feedback_details']);
+            $sql2 = "insert into tbl_user_feedback(name, email, age, phone, feedback) values ('$name', '$email', '$age', '$phone', '$feedback_details')";
+            if(mysqli_query($conn, $sql2)){
+                echo "<p class='user-feedback'>Data inserted Successfully</p>";
+
+                echo "<script> 
+                setTimeout(function(){
+                    window.location = 'beahomedoctor.php';
+                },3000);
+          </script>";
+            }else{
+                echo "<p class='user-feedback'>Data is not inserted</p>";
+
+                echo "<script> 
+                                  setTimeout(function(){
+                                      window.location = 'beahomedoctor.php';
+                                  },3000);
+                            </script>";
+            }
+    }
+
+    function test($data){
+              $data = trim($data);
+              $data = stripcslashes($data);
+              $data = htmlspecialchars($data);
+              return $data;
+    }
+
+    ?>
             </div>
             <div class="row">
                 <div class="col-6 mx-auto bg-danger">
                     <div class="feedback_area">
-                        <form action="">
+                        <form action="" method="post">
                             <div class="row">
                                 <div class="col-6">
-                                    <input type="text" placeholder="Full name" required>
-                                    <input type="number" placeholder="Age" required>
+                                    <input type="text" placeholder="Full name" name="name" required>
+                                    <input type="number" placeholder="Age" name="age" required>
                                 </div>
                                 <div class="col-6">
-                                    <input type="email" placeholder="Email" required>
-                                    <input type="tel" placeholder="Phone" required>
+                                    <input type="email" placeholder="Email" name="email" required>
+                                    <input type="tel" placeholder="Phone" name="phone" required>
                                 </div>
                             </div>
-                            <textarea name="" id="feedback_text_area" rows="10" placeholder="Pleas Give Us your feedback"></textarea>
+                            <textarea id="feedback_text_area" rows="10" placeholder="Pleas Give Us your feedback" name="feedback_details" ></textarea>
+                            <input type="submit" class="submit-button" value="Submit">
                         </form>
                     </div>
                 </div>
@@ -267,6 +301,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <!-- Main Js -->
     <script src="assets/js/app.js"></script>
-    <script src="assets/js/programmer.js"></script>
+    <script src="assets/js/slider.js"></script>
 </body>
 </html>

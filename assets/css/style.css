@@ -65,6 +65,12 @@ a:hover {
   color: #fff;
   margin: 15px 10px;
 }
+.admin-btn {
+  border: 2px solid crimson !important;
+  border-radius: 0.5rem;
+  padding: 5px 18px;
+  margin-left: 36px;
+}
 
 .searchOverlay {
   position: absolute;
@@ -382,7 +388,6 @@ a {
 
 /* lern section */
 .lern {
-  background: ;
   padding: 50px;
 }
 .lern-title {
@@ -709,7 +714,10 @@ a {
   resize: none;
   margin-top: 10px;
 }
-
+.user-feedback{
+  color:red !important;
+  font-size: 20px !important;
+}
 /* //Feedback CSS End */
 
 /* //Other page CSS End */
